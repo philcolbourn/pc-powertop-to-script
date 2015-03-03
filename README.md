@@ -6,6 +6,7 @@ Requires powertop, xmllint, and sed.
 Must be run with sudo.
 
 eg. 
+
 $ sudo ./pc-powertop-to-bash.bash
 [sudo] password for phil: 
 Loaded 71 prior measurements
