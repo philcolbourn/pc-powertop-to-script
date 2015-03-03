@@ -20,6 +20,7 @@ Taking 1 measurement(s) for a duration of 20 second(s) each.
 PowerTOP outputing using base filename /tmp/powertop.html
 command failed: Operation not supported (-95)
 
+
 $ cat /tmp/pc-rc.local
 iw dev wlan0 set power_save on
 echo 'min_power' > '/sys/class/scsi_host/host2/link_power_management_policy';
