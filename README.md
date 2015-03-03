@@ -8,6 +8,7 @@ Must be run with sudo.
 eg. 
 
 $ sudo ./pc-powertop-to-bash.bash
+
 [sudo] password for phil:
 Loaded 71 prior measurements
 Cannot load from file /var/cache/powertop/saved_parameters.powertop
