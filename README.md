@@ -8,7 +8,7 @@ Must be run with sudo.
 eg. 
 
 $ sudo ./pc-powertop-to-bash.bash
-[sudo] password for phil: 
+[sudo] password for phil:
 Loaded 71 prior measurements
 Cannot load from file /var/cache/powertop/saved_parameters.powertop
 RAPL device for cpu 0
@@ -20,6 +20,7 @@ Preparing to take measurements
 Taking 1 measurement(s) for a duration of 20 second(s) each.
 PowerTOP outputing using base filename /tmp/powertop.html
 command failed: Operation not supported (-95)
+
 
 
 $ cat /tmp/pc-rc.local
