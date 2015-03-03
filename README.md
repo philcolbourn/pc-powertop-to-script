@@ -1,9 +1,12 @@
 # pc-powertop-to-script
 Run powertop and make a script of recommendations
 
-Requires powertop, xmllint, and sed.
+Requires:
+* ```powertop```
+* ```xmllint```
+* ```sed```.
 
-Must be run with sudo.
+Must be run with ```sudo```.
 
 eg. 
 
@@ -22,6 +25,8 @@ Taking 1 measurement(s) for a duration of 20 second(s) each.
 PowerTOP outputing using base filename /tmp/powertop.html
 command failed: Operation not supported (-95)
 ```
+
+Produces ```/tmp/pc-rc.local```
 
 ```
 $ cat /tmp/pc-rc.local
