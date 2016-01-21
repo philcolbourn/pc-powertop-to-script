@@ -4,7 +4,7 @@
 powertop --html=/tmp/powertop.html
 
 # extract commands
-xmllint --html -xpath "//div[@id='tuning']//td[2]/text()" <(sed 's/<\/td>/\n<\/td>/g' < /tmp/powertop.html) | sed 's/&gt;/>/g' > /tmp/pc-rc.local
+xmllint --html --xpath "//tr[@class='tune']//text()" <(sed 's/<\/\(t[dh]\)>/\n<\/\1>/g' < /tmp/powertop.html) | head -n -2 | tail -n +3 | sed 's/&gt;/>/g;s/^   /# /;s/^  //;s/ $//;s/;$/\n/' > /tmp/pc-rc.local
 
 chmod u+x /tmp/pc-rc.local
 
