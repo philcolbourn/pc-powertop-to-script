@@ -1,6 +1,9 @@
 # pc-powertop-to-script
 Run powertop and make a script of recommendations
 
+NOTE: Functionally this is redundant with --auto-tune option added to powertop.
+      However, this script allows customisation, by editting, of what tune-ups are used.
+
 Requires:
 * ```powertop```
 * ```xmllint```
